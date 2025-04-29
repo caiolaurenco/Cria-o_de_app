@@ -199,7 +199,7 @@
     width: 36px;
     height: 36px;
     border-radius: var(--radius-circle);
-    background-color: var(--light-gray);
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -310,3 +310,4 @@
     background-color: var(--white);
     border-radius: var(--radius-circle);
   }
+
