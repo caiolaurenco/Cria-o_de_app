@@ -6,37 +6,84 @@
     <link rel="stylesheet" href="style.css">
     <title>Nubank funcionalidade</title>  
 </head>  
-<body>  
-    <div class="container">  
-        <header class="header">  
-            <div class="user-info">  
-                <div class="profile-icon"></div> 
-                <img src="Imagens/ea91d3ae778225e3fd6c1c9fa7afd98df3ca237b.pn">
-                <h1>Olá, Caio</h1>  
-            </div>  
-            <div class="balance">  
-                <p>Saldo em conta</p>  
-                <p class="balance-amount">R$ ****</p>  
-            </div>  
-        </header>  
-
-        <div class="menu">  
-            <button>Área Pix</button>  
-            <button>Pagar</button>  
-            <button>Transferir</button>  
-            <button>Depositar</button>  
-            <button>Recarregar celular</button>  
-        </div>  
-
-        <section class="cards">
-            <div class="card">
-                <h2>Caixinhas</h2>
-                <p>R$ ****</p>
-            </div>
-            <div class="card">
-                <h2>Meus cartões</h2>
-            </div>
+<body>
+    <div class="app-container">
+      <header class="app-header">
+        <div class="status-bar">
+          <div class="status-time">11:02</div>
+          <div class="status-icons">
+            <div class="signal-icon"></div>
+            <div class="wifi-icon"></div>
+            <div class="battery-icon"></div>
+          </div>
+        </div>
+        
+        <div class="header-content">
+          <div class="profile-section">
+            <div class="profile-icon">👤</div>
+          </div>
+          
+          <div class="header-icons">
+            <div class="eye-icon">👁️</div>
+            <div class="question-icon">❓</div>
+            <div class="check-icon">✓</div>
+          </div>
+        </div>
+        
+        <div class="user-greeting">
+          <p>Olá, Caio</p>
+        </div>
+      </header>
+      
+      <main class="app-content">
+        <section class="account-section">
+          <div class="account-balance">
+            <div class="balance-title">Saldo em conta</div>
+            <div class="balance-value">••••</div>
+            <div class="chevron-icon">›</div>
+          </div>
         </section>
+        
+        <section class="quick-actions">
+          <div class="action-item">
+            <div class="action-icon">₱</div>
+            <span>Área Pix</span>
+          </div>
+          <div class="action-item">
+            <div class="action-icon">$</div>
+            <span>Pagar</span>
+          </div>
+          <div class="action-item">
+            <div class="action-icon">↔</div>
+            <span>Transferir</span>
+          </div>
+          <div class="action-item">
+            <div class="action-icon">↓</div>
+            <span>Depositar</span>
+          </div>
+          <div class="action-item">
+            <div class="action-icon more-icon">
+              <span class="dots"></span>
+              <span class="dots"></span>
+              <span class="dots"></span>
+            </div>
+            <span>Recarga<br>celular</span>
+          </div>
+        </section>
+        
+        <section class="menu-options">
+          <div class="menu-item">
+            <div class="menu-icon">📦</div>
+            <span>Caixinhas</span>
+            <div class="balance-hidden">R$ ••••</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-icon">💳</div>
+            <span>Meus cartões</span>
+          </div>
+        </section>
+        
+        
         <footer class="footer">  
             <h3>Compre sem sair do app</h3>  
            <img src="Imagens/parte de baixo.png">
@@ -45,7 +92,7 @@
 </body>  
 </html>  
 
-
-      
-</body>  
-</html>  
+      </main>
+    </div>
+  </body>
+  </html>
